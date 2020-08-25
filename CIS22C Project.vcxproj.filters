@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{3326bd35-0ba9-406d-b7e3-765f42ab8cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{40f45fd5-734c-40f8-8755-09a1ffd2d88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data stuff">
+      <UniqueIdentifier>{5501c1a5-651b-4e2c-8d27-8a6f584aa77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data stuff">
+      <UniqueIdentifier>{7ab75904-75d5-49f0-b6da-bd24910c9f8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fry_Database.tsv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GUI\AddProductWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\BaseWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\DeleteProductWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\DisplayProductWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\FindProductWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\MainWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\ProductListWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI\TextOutputWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BST.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BSTNode.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Catalog.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileManager.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hash.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LinkedList.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LinkedNode.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Product.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShoppingCart.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TArray.h">
+      <Filter>Header Files\Data stuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GUI\AddProductWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\DeleteProductWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\DisplayProductWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\FindProductWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\MainWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\ProductListWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\TextOutputWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Catalog.cpp">
+      <Filter>Source Files\Data stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileManager.cpp">
+      <Filter>Source Files\Data stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hash.cpp">
+      <Filter>Source Files\Data stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Product.cpp">
+      <Filter>Source Files\Data stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShoppingCart.cpp">
+      <Filter>Source Files\Data stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
