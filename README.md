@@ -11,6 +11,8 @@ Once it's loaded, you can add new products, delete products, search for products
 ![image](https://user-images.githubusercontent.com/56143403/222349794-8ac876b7-8393-47b6-a10e-7d1b2c4acef8.png)
 ![image](https://user-images.githubusercontent.com/56143403/222349870-f105aa97-8edd-4908-940f-3d7706624811.png)
 ![image](https://user-images.githubusercontent.com/56143403/222350260-5c822c14-79ef-4812-8076-1453378eec05.png)
+![image](https://user-images.githubusercontent.com/56143403/222350799-6c2f7ab5-49cf-4bdf-b830-54fa7cd93c31.png)
+
 
 
 Once you exit the program, it will save to the tsv file selected at the beginning (or the default, if applicable). If you didn't choose a tsv file, it will ask you where you want it to be saved.
